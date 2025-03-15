@@ -9,3 +9,4 @@ ProjectProject1附件1-会员信息表.xlsx filter=lfs diff=lfs merge=lfs -text
 Project\\Project1\\附件1-会员信息表.xlsx filter=lfs diff=lfs merge=lfs -text
 附件2-销售流水表.xlsx filter=lfs diff=lfs merge=lfs -text
 Project/Project1/附件2-销售流水表.xlsx filter=lfs diff=lfs merge=lfs -text
+附件3-会员消费明细表.xlsx filter=lfs diff=lfs merge=lfs -text
