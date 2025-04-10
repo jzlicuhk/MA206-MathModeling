@@ -99,7 +99,7 @@ plot(G,'EdgeLabel',G.Edges.Weight)
 
 [d,index1,index2] = Dijkstra(a)
 
-P = shortestpath(G,1,2,"Method","positive")
+P = shortestpath(G,1,4,"Method","positive")
 
 
 %% shortestpathtree函数
@@ -114,3 +114,4 @@ clc;clear;close all
 w = [0 1 inf 2 inf 6;2 0 4 inf inf inf;inf 3 0 inf inf 2; inf 1 inf 0 3 inf;inf inf inf 2 0 1;inf inf 3 inf 1 0];
 G = digraph(w);
 plot(G,'EdgeLabel',G.Edges.Weight)
+[p1 p2 d1 d2] = second_shortest_path(G,1,2)
