@@ -29,7 +29,7 @@ x,fval
 clc;clear;close all
 
 % 创建优化对象
-problem = optimproblem;
+problem = optimproblem
 %% 
 % 创建变量
 ingots = optimvar('ingnots',4,'Type','integer','LowerBound',0,'UpperBound',1);
